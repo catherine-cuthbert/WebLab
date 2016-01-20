@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Form stuff</title>
+	</head>
+
+	<body>
+		<h1>A Form.</h1>
+		<form action="form_submit.php" method="post" name="myform" target="_self">
+			<fieldset>
+				<label for="firstName">First Name</label>
+				<input type="text" name="firstName" id="firstName"/>
+				<label for="lastName">Last Name</label>
+				<input type="text" name="lastName" id="lastName"/>
+				<label for="password">Password</label>
+				<input type="password" name="password" id="password"/>
+			</fieldset>
+
+			<fiedset>
+				<label for="isAwesome">Is Awesome?</label>
+				<input type="checkbox" name="isAwesome" id="isAwesome"/>
+				<input type="submit" value="submit" id="submit"/>
+				<input type="reset" value="reset" id="reset"/>
+			</fieldset>
+
+			<fieldset>
+				<label>tall</label>
+				<input type="radio" name="height" id="height_tall" value="tall"/>
+				<label>short</label>
+				<input type="radio" name="height" id="height_short" value="short"/>
+		</form>
+	</body>
+</html>

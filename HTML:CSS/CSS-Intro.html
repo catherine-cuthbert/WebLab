@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>CSS Intro</title>
+		<style media="screen">
+			selectorName {
+				property: value;
+			}
+
+			p {
+				font-family: sans-serif;
+			}
+
+			p>a {
+				color: pink;
+				border: none;
+			}
+
+			.header {
+				border: 1px solid red;
+				z-index: 1:;
+			}
+
+			#special {
+				color: aliceblue;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="header">
+			<h1>Header Text</h1>
+		</div>
+
+		<div class="content">
+			<p style="font-weight: bold; border-bottom: 1px solid #000;">Some content</p>
+			<p id="special">More content goes <a href="#">here</a>
+				<span>
+					<a href="something.com">Sample</a>
+				</span>
+			</p>
+		</div>
+
+		<div class="footer">
+			Copyright &copy; 2016
+		</div>
+	</body>
+</html>
