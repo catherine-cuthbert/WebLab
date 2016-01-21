@@ -2,7 +2,17 @@
 <html>
 <head>
 	<meta charset="utf-8"/>
-	<title>PBlockBlockBlockBlock</title>
+	<title>BlockBlockBlockBlock</title>
+	<style media="screen">
+		header,
+		div,
+		footer {
+			background-color: tan;
+			display: block; /*overrides inline level elements*/
+			display: inline; /*overrides block level elements*/
+			display: inline-block; /* acts as inline but respects padding and margin*/
+		}
+	</style>
 </head>
 
 <body>
