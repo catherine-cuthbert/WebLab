@@ -10,11 +10,10 @@ h1 {
 ul {
 	font-family: 'Lobster', cursive;
 	list-style-type: none;
-	display: inline;
 }
 
 a {
-	display: block;
+	display: inline;
 	background-color: lightblue;
 	color: purple;
 	text-align: left;
@@ -29,3 +28,8 @@ a:hover {
 a:active {
 	color: yellow;
 }
+
+img {
+ 	position: fixed;
+ 	left: 300px;
+ }
