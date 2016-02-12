@@ -26,8 +26,14 @@ $(function(){
     // when game over call `tellUser(guesses, value, "turns to guess");
     // when too high `tellUser(value, "high");
     // when too low `tellUser(value, "low");
-    
-
+    if (value > aNumber) {
+      tellUser(value, "high");
+    } else if (value < aNumber) {
+      tellUser(value, "low");
+    }
+    else {
+      tellUser(guesses, value, "turns to guess");
+    }
 
     // END OF YOUR CODE
 
